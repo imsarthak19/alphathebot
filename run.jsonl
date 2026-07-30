@@ -26,3 +26,10 @@
 {"type": "incoming", "chat_id": 1137199145, "text": "\"Who is PM of INDIA? Reply with ONLY this JSON: {\"answer\": , \"log_url\": \"...\"}\"", "timestamp": 1785430733.2753801}
 {"type": "outgoing", "chat_id": 1137199145, "text": "{\"answer\": \"Narendra Modi\", \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785430737.8132977}
 {"type": "incoming", "chat_id": 1137199145, "text": "\"Who is PM of INDIA? Reply with ONLY this JSON: {\"answer\": , \"log_url\": \"...\"}\"", "timestamp": 1785430737.8489132}
+{"type": "outgoing", "chat_id": 1137199145, "text": "{\"answer\": \"Narendra Modi\", \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785430741.980778}
+{"type": "incoming", "chat_id": 1137199145, "text": "Who is PM of USA? Reply with ONLY this JSON: {\"answer\": , \"log_url\": \"...\"}\"", "timestamp": 1785430948.7583096}
+{"type": "outgoing", "chat_id": 1137199145, "text": "{\"answer\": \"The United States does not have a Prime Minister; the head of state and government is President Joe Biden.\", \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785430954.490778}
+{"type": "incoming", "chat_id": 1137199145, "text": "Hello", "timestamp": 1785431002.306217}
+{"type": "incoming", "chat_id": 1137199145, "text": "heyyy", "timestamp": 1785431084.421459}
+{"type": "incoming", "chat_id": 1137199145, "text": "Hi", "timestamp": 1785431211.587676}
+{"type": "outgoing", "chat_id": 1137199145, "text": "{\"reply\": \"Hi! How can I help with data analysis today?\", \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785431217.2650511}
