@@ -23,3 +23,6 @@
 {"type": "outgoing", "chat_id": 1137199145, "text": "{\"answer\": 10, \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785427648.5226262}
 {"test":"hello"}
 {"test":"auto-push"}
+{"type": "incoming", "chat_id": 1137199145, "text": "\"Who is PM of INDIA? Reply with ONLY this JSON: {\"answer\": , \"log_url\": \"...\"}\"", "timestamp": 1785430733.2753801}
+{"type": "outgoing", "chat_id": 1137199145, "text": "{\"answer\": \"Narendra Modi\", \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785430737.8132977}
+{"type": "incoming", "chat_id": 1137199145, "text": "\"Who is PM of INDIA? Reply with ONLY this JSON: {\"answer\": , \"log_url\": \"...\"}\"", "timestamp": 1785430737.8489132}
