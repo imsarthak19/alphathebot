@@ -4,6 +4,8 @@ import os
 from openai import OpenAI
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
+import subprocess
+import threading
 
 # --- fill these in with your own values ---
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
@@ -22,6 +24,34 @@ def log_event(event: dict):
     event["timestamp"] = time.time()
     with open(LOG_FILE, "a") as f:
         f.write(json.dumps(event) + "\n")
+
+def push_log():
+    try:
+        changed = subprocess.run(
+            ["git", "diff", "--quiet", "run.jsonl"]
+        ).returncode
+
+        if changed == 0:
+            return
+
+        subprocess.run(["git", "add", "run.jsonl"], check=True)
+
+        subprocess.run(
+            ["git", "commit", "-m", "Update run log"],
+            check=False,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+
+        subprocess.run(
+            ["git", "push", "origin", "main"],
+            check=True,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+
+    except Exception as e:
+        print("Git push failed:", e)
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
@@ -61,7 +91,13 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     final_reply = json.dumps(parsed)
 
     log_event({"type": "outgoing", "chat_id": chat_id, "text": final_reply})
+
     await update.message.reply_text(final_reply)
+
+    threading.Thread(
+        target=push_log,
+        daemon=True
+    ).start()
 
 app = ApplicationBuilder().token(TELEGRAM_BOT_TOKEN).build()
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
