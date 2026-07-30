@@ -39,3 +39,5 @@
 {"type": "outgoing", "chat_id": 1137199145, "text": "{\"answer\": \"ChatGPT\", \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785431317.25467}
 {"type": "incoming", "chat_id": 1137199145, "text": "Still up?", "timestamp": 1785431480.9861593}
 {"type": "outgoing", "chat_id": 1137199145, "text": "{\"answer\": \"Yes, I'm here.\", \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785431486.566704}
+{"type": "incoming", "chat_id": 1137199145, "text": "heyy up?", "timestamp": 1785431849.5489378}
+{"type": "outgoing", "chat_id": 1137199145, "text": "{\"answer\": \"Yes, I'm here.\", \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785431854.7683997}
