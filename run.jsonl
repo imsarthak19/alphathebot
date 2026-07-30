@@ -7,3 +7,18 @@
 {"type": "outgoing", "chat_id": 1137199145, "text": "{\"answer\": 10, \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785425927.365484}
 {"type": "incoming", "chat_id": 1137199145, "text": "[\n\u00a0 {\n\u00a0 \u00a0 \"id\": \"maternal_mortality_state\",\n\u00a0 \u00a0 \"timeout_seconds\": 300,\n\u00a0 \u00a0 \"messages\": [\n\u00a0 \u00a0 \u00a0 \"Which state has the highest maternal mortality rate based on MOSPI data? Reply with ONLY a JSON object like {\\\"state\\\": \\\"<state name>\\\"}\"\n\u00a0 \u00a0 ],\n\u00a0 \u00a0 \"expected\": { \"state\": \"REPLACE_ME\" }\n\u00a0 }\n]", "timestamp": 1785425982.031413}
 {"type": "outgoing", "chat_id": 1137199145, "text": "{\"state\": \"Assam\", \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785425990.22805}
+{"type": "incoming", "chat_id": 1137199145, "text": "hii", "timestamp": 1785427426.873043}
+{"type": "outgoing", "chat_id": 1137199145, "text": "{\"reply\": \"Hi! How can I help you with data analysis today?\", \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785427435.7050693}
+{"type": "incoming", "chat_id": 1137199145, "text": "hi", "timestamp": 1785427436.4256008}
+{"type": "outgoing", "chat_id": 1137199145, "text": "{\"reply\": \"Hi! How can I help you with data analysis today?\", \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785427443.4306183}
+{"type": "incoming", "chat_id": 1137199145, "text": "hi", "timestamp": 1785427556.8417761}
+{"type": "outgoing", "chat_id": 1137199145, "text": "{\"message\": \"hi\", \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785427564.305509}
+{"type": "incoming", "chat_id": 1137199145, "text": "[\n\u00a0\u00a0{\n\u00a0\u00a0\u00a0\u00a0\"id\": \"maternal_mortality_state\",\n\u00a0\u00a0\u00a0\u00a0\"timeout_seconds\": 300,\n\u00a0\u00a0\u00a0\u00a0\"messages\": [\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"Which state has the highest maternal mortality rate based on MOSPI data? Reply with ONLY a JSON object like {\\\"state\\\": \\\"<state name>\\\"}\"\n\u00a0\u00a0\u00a0\u00a0],\n\u00a0\u00a0\u00a0\u00a0\"expected\": { \"state\": \"REPLACE_ME\" }\n\u00a0\u00a0}\n]", "timestamp": 1785427571.5575583}
+{"type": "outgoing", "chat_id": 1137199145, "text": "{\"state\": \"Assam\", \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785427580.1007442}
+{"type": "incoming", "chat_id": 1137199145, "text": "hii", "timestamp": 1785427603.739705}
+{"type": "outgoing", "chat_id": 1137199145, "text": "{\"state\": \"Assam\", \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785427614.8402078}
+{"type": "incoming", "chat_id": 1137199145, "text": "still running?", "timestamp": 1785427617.8755004}
+{"type": "outgoing", "chat_id": 1137199145, "text": "{\"state\": \"Assam\", \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785427627.96754}
+{"type": "incoming", "chat_id": 1137199145, "text": "\"What is 10% of 100? Reply with ONLY this JSON: {\"answer\": , \"log_url\": \"...\"}\"", "timestamp": 1785427640.1794527}
+{"type": "outgoing", "chat_id": 1137199145, "text": "{\"answer\": 10, \"log_url\": \"https://raw.githubusercontent.com/imsarthak19/alphathebot/main/run.jsonl\"}", "timestamp": 1785427648.5226262}
+{"test":"hello"}
